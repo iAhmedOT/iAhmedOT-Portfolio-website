@@ -41,8 +41,8 @@ The portfolio intentionally avoids a large frontend framework because its conten
 ### Start a local preview
 
 ```bash
-git clone https://github.com/iAhmedOT/iAhmed.git
-cd iAhmed
+git clone https://github.com/iAhmedOT/iAhmedOT-Portfolio-website.git
+cd iAhmedOT-Portfolio-website
 python3 -m http.server 8000
 ```
 
