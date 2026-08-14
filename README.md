@@ -1,26 +1,71 @@
-# iAhmed
+# Ahmed AlOtaibi — Professional Portfolio
 
-Interactive one-page personal site for Ahmed AlOtaibi.
+Recruiter-focused portfolio for Ahmed AlOtaibi, an experienced technical professional working across quality assurance, technical operations, customer support, and AI-assisted workflows.
+
+**Live site:** [iAhmedOT.com](https://iahmedot.com)
+
+## Purpose
+
+The site gives recruiters and hiring teams a concise view of:
+
+- Ahmed's professional experience and target roles
+- Quality, support, and technical-operations strengths
+- Selected project work with verifiable GitHub evidence
+- Resume and direct contact options
+
+## Featured project
+
+### AI Output Review Tool
+
+A local-first QA workspace for evaluating AI-generated responses with a repeatable scoring rubric, issue taxonomy, reviewer notes, and searchable review history.
+
+- [Live demo](https://iahmedot.com/ai-output-review/)
+- [Source repository](https://github.com/iAhmedOT/ai-output-review-tool)
 
 ## Stack
 
-- HTML
-- CSS
+- Semantic HTML
+- Modern CSS
 - Vanilla JavaScript
+- Static deployment on Vercel
 
-## Local preview
+The portfolio intentionally avoids a large frontend framework because its content and interactions do not require one. This keeps the site fast, portable, and straightforward to maintain.
+
+## Local development
+
+### Requirements
+
+- A modern web browser
+- Python 3, or any static HTTP server
+
+### Start a local preview
 
 ```bash
+git clone https://github.com/iAhmedOT/iAhmed.git
 cd iAhmed
 python3 -m http.server 8000
 ```
 
-Then open:
+Open [http://localhost:8000](http://localhost:8000).
 
-- http://localhost:8000
+## Project structure
 
-## Customize next
+```text
+index.html       Page content, metadata, and semantic structure
+styles.css       Responsive layout and visual system
+script.js        Navigation, filters, and interface behavior
+assets/          Images, icons, and downloadable documents
+```
 
-- Replace `assets/profile-placeholder.svg` with Ahmed's real photo
-- Add GitHub / LinkedIn / X links in the contact section
-- Optional: enable GitHub Pages for deployment
+## Privacy and repository hygiene
+
+- No API keys or runtime credentials are required.
+- No private customer information or proprietary employer data is included.
+- Local machine paths and deployment metadata are excluded from the public documentation.
+- Recruiter and creator identities are intentionally kept separate.
+
+## Contact
+
+- [Email Ahmed](mailto:iAhmedOT@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/iahmedot)
+- [GitHub](https://github.com/iAhmedOT)
