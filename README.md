@@ -11,7 +11,7 @@ The site gives recruiters and hiring teams a concise view of:
 - Ahmed's professional experience and target roles
 - Quality, support, and technical-operations strengths
 - Selected project work with verifiable GitHub evidence
-- Resume and direct contact options
+- Direct contact options
 
 ## Featured project
 
